@@ -2,14 +2,13 @@ import React from "react";
 import "./style.css"
 import { FcGoogle } from "react-icons/fc";
 
-function LogIn(){
+function LogIn({state,change}){
+   
     return<>
     <div className="center">
     <div className="one">
-      <h6>Create a new Account</h6>
-      <a href="/Google/ONEBOX">
-      <button className="btn1"><span><FcGoogle/></span>Sign Up with Google</button>
-      </a>
+      <h6>Create a new account</h6>
+      <button onClick={()=>change(state)} className="btn1"><span><FcGoogle/></span>Sign Up with Google</button>
       <br />
       <button className="btn2">Create an Account</button>
       <p>already have an account?<span> Sign in</span></p>
