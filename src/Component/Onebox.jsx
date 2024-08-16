@@ -2,14 +2,14 @@ import React from "react";
 import Menubar from "./Menubar";
 import Navbar from "./Navbar";
 import Head from './Head';
-function Onebox(){
+function Onebox({theme,Change}){
     return <>
    
     <div className="main">
-     <Menubar/>
-     <Head />
+     <Menubar theme={theme}/>
+     <Head theme={theme} Change={Change}/>
      </div>
-     <Navbar />
+     <Navbar theme={theme}/>
     </>
 }
 
