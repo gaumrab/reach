@@ -1,11 +1,11 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 
-function End(){
+function End({theme}){
     return <>
     <div className="end">
      <div className="end1">
-     <h4>Lead Details</h4>
+     <h4 id={`${!theme?"WHITE":""}`}>Lead Details</h4>
      <p><span>Name : </span>mitrajit</p>
      <p><span>Contact No:</span> +54 9062827869</p>
      <p><span>Email:</span> mitrajit2022@gmail.com</p>
@@ -13,7 +13,7 @@ function End(){
      <p><span>Company Name:</span> Reachinbox</p>
      </div>
      <div className="end1">
-     <h4>Compaign Details</h4>
+     <h4 id={`${!theme?"WHITE":""}`}>Compaign Details</h4>
      <p><MdEmail style={{fontSize:30}}/>Step1:Email <br /> sent 3rd,Feb</p>
      <p><MdEmail style={{fontSize:30}}/>Step2:Email <br /> Opened 5th,Feb</p>
      <p><MdEmail style={{fontSize:30}}/>Step4:Email <br /> sent 7th,Feb</p>
