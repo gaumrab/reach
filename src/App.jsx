@@ -4,7 +4,7 @@ import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
   let [state,setState] = new useState(false);
-  let [theme,setTheme] = new useState(false);
+  let [theme,setTheme] = new useState(true);
   function change(state){
     setState(!state);
   }
