@@ -4,12 +4,13 @@ import { FaRegMoon } from "react-icons/fa";
 
 import "./DarkMode.css";
 
-const DarkMode = () => {
-  
+const DarkMode = ({theme,Change}) => {
+   
     return (
         
         <div className='dark_mode'>
             <input 
+                onClick={() =>{Change(theme)}}
                 className='dark_mode_input'
                 type='checkbox'
                 id='darkmode-toggle'
