@@ -6,7 +6,7 @@ function App(){
   return <>
     <Routes>
       <Route path="/" element={<LogIn/>}/>
-      <Route path="/Google/ONEBOX" element={<Onebox/>}/>
+      <Route path="/onebox" element={<Onebox/>}/>
     </Routes>
   </>
 }
