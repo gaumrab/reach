@@ -4,6 +4,7 @@ import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
   return <>
+    <LogIn/>
      <Onebox/>
   </>
 }
