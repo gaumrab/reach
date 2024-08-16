@@ -2,7 +2,7 @@ import React, { useEffect,useState } from "react";
 import { IoReload } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import Cards from "./Cards";
-function Sidebar({ value }) {
+function Sidebar({ theme,value }) {
   let arr = [
     {
       fromEmail: "xyz@gmail.com",
@@ -45,7 +45,7 @@ function Sidebar({ value }) {
 
   return (
     <>
-      <div className="bar">
+      <div className="bar" id={`${!theme?"WHITE":""}`}>
         <div className="subpart1">
           <h3>All Inbox(s)</h3>
           <span>
@@ -54,10 +54,10 @@ function Sidebar({ value }) {
         </div>
         <p>Inboxes Selected</p>
         <div className="search">
-          <span>
+          <span id={`${!theme?"WHITE":""}`}>
             <CiSearch />
           </span>
-          <input type="text" placeholder="Search" />
+          <input id={`${!theme?"WHITE":""}`} type="text" placeholder="Search" />
         </div>
         <div className="new">
           <div className="newsub1">
