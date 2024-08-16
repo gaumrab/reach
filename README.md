@@ -28,6 +28,8 @@ Photos:
 ![Screenshot 2024-08-16 155410](https://github.com/user-attachments/assets/6b934e05-92a7-4e02-85d1-9866a6793b42)
 4. When User Press Key 'D' then Delete pop is occur and selected user is get Deleted.
 ![image](https://github.com/user-attachments/assets/cdc866de-2048-4732-8af0-3b76bf4c4caa)
+5. Light Theme review
+![Screenshot 2024-08-16 170703](https://github.com/user-attachments/assets/f29846ec-80f3-4a4f-954b-0cec37417884)
 
 
 
