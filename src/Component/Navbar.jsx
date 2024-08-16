@@ -4,7 +4,7 @@ import Center from './Center';
 import End from './End';
 import axios from 'axios';
 
-const Navbar = () => {
+const Navbar = ({theme}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -40,10 +40,10 @@ const Navbar = () => {
  
 
   return <>
-  <div className='mainto'>
-    <Sidebar  value={data.data}/>
-    <Center value={data.data[0]}/>
-    <End/>
+  <div className='mainto' id={`${!theme?"WHITE":""}`}>
+    <Sidebar theme={theme}  value={data.data}/>
+    <Center theme={theme} value={data.data[0]}/>
+    <End  theme={theme}/>
   </div>
   
  </>
