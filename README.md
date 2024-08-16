@@ -11,7 +11,8 @@ Currently, two official plugins are available:
 It like an gmail in which i used Reactjs, javaScript,Reactjs Component,axios for api get and post, operate operation like GET, POST,DELETE, AlsO dO the  api testing using POSTMAN.
 
 <h3>Requirement for run the App on your Machine :</h3>
-<h6>Download the Code and Un-Zip this</h6>* 
+<h6>*Download the Code and Un-Zip the folder.</h6>
+<h6>*Now Open the folder on vs code & on terminal perform the below installation.</h6>
 <h6>1. npm create vite@latest</h6>
 <h6>2. npm i axios</h6>
 <h6>3. npm install react-bootstrap bootstrap</h6>
