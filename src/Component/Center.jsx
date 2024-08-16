@@ -70,23 +70,23 @@ function Center({theme,value}){
          })
       }
 
-      <div className={`${val?"v REPLY":"n"}`}>
+      <div className={`${val?"v REPLY":"n"}`} id={`${!theme?"WHITE":""}`}>
          <p>Reply</p>
-         <div onChange={(event)=>setData({...data,to:event.target.value})} className='onee'><label>To: </label><input type="email" /></div>
-         <div onChange={(event)=>setData({...data,from:event.target.value})} className='onee'><label>From: </label><input type="email" /></div>
-         <div onChange={(event)=>setData({...data,desc:event.target.value})}  className='onee'><label>Subject: </label><input type="text" /></div>
-         <textarea onChange={(event)=>setData({...data,desc:event.target.value})} cols={100} rows={12}>data</textarea>
+         <div onChange={(event)=>setData({...data,to:event.target.value})} className='onee'><label>To: </label><input  id={`${!theme?"WHITE":""}`} type="email" /></div>
+         <div onChange={(event)=>setData({...data,from:event.target.value})} className='onee'><label>From: </label><input  id={`${!theme?"WHITE":""}`} type="email" /></div>
+         <div onChange={(event)=>setData({...data,desc:event.target.value})}  className='onee'><label>Subject: </label><input  id={`${!theme?"WHITE":""}`} type="text" /></div>
+         <textarea onChange={(event)=>setData({...data,desc:event.target.value})} cols={100} rows={12}  id={`${!theme?"WHITE":""}`}>Hii,</textarea>
 
          <div  className="bottom mt-3">
             <button onClick={()=>Add()} className="btn btn-primary">Send <FaCaretDown /></button>
             <button style={{color:"gray"}} className="btn ms-2"><BsLightningChargeFill /> Variables</button>
             <button style={{color:"gray"}} className="btn"><LuEye />Preview Email</button>
             <span style={{color:"gray"}}>A</span>
-            <button className='llink ms-3'><IoLink /></button>
-            <button className='llink ms-3'> <MdImage /></button>
-            <button className='llink ms-3'><FaFaceSmile /></button>
-            <button className='llink ms-3'><FaUser /></button>
-            <button className='llink ms-3'><IoCode /></button>
+            <button  id={`${!theme?"WHITE":""}`}  className='llink ms-3'><IoLink /></button>
+            <button  id={`${!theme?"WHITE":""}`}  className='llink ms-3'> <MdImage /></button>
+            <button  id={`${!theme?"WHITE":""}`}  className='llink ms-3'><FaFaceSmile /></button>
+            <button  id={`${!theme?"WHITE":""}`}  className='llink ms-3'><FaUser /></button>
+            <button  id={`${!theme?"WHITE":""}`} className='llink ms-3'><IoCode /></button>
          </div>
         
       </div>
