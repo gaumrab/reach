@@ -1,4 +1,4 @@
-<h1>Project Deploy Link : https://reach-lemon.vercel.app/</h1>
+<h3>Project Deploy Link : https://reach-lemon.vercel.app/</h3>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,13 +10,13 @@ Currently, two official plugins are available:
 
 It like an gmail in which i used Reactjs, javaScript,Reactjs Component,axios for api get and post, operate operation like GET, POST,DELETE, AlsO dO the  api testing using POSTMAN.
 
-Requirement for run the App on your Machine :
-* Download the Code and Un-Zip this
-1. npm create vite@latest
-2. npm i axios
-3. npm install react-bootstrap bootstrap
-4. npm i react-icons
-5. npm i react-router-dom
+<h3>Requirement for run the App on your Machine :</h3>
+<h6>Download the Code and Un-Zip this</h6>* 
+<h6>1. npm create vite@latest</h6>
+<h6>2. npm i axios</h6>
+<h6>3. npm install react-bootstrap bootstrap</h6>
+<h6>>4. npm i react-icons</h6
+<h6>>5. npm i react-router-dom</h6
 
 
 Photos:
