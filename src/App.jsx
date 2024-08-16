@@ -8,8 +8,8 @@ function App(){
       <Route path="/" element={<LogIn/>}/>
       <Route path="/onebox" element={<Onebox/>}/>
     </Routes> */}
+     <Onebox/>
   </>
-  <Onebox/>
 }
 
 export default App;
