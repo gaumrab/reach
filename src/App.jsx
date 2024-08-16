@@ -4,11 +4,16 @@ import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
   let [state,setState] = new useState(false);
+  let [theme,setTheme] = new useState(false);
   function change(state){
-    setState(true);
+    setState(!state);
   }
+  function Change(theme){
+    setTheme(!theme);
+  }
+
   return <>
-    {state?<Onebox/>:<LogIn state={state} change={change}/>}
+    {state?<Onebox theme={theme} Change={Change}/>:<LogIn state={state} change={change}/>}
   </>
 }
 
