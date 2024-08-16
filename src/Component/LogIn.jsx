@@ -6,7 +6,7 @@ function LogIn(){
     return<>
     <div className="center">
     <div className="one">
-      <h6>Create a new Accounts</h6>
+      <h6>Create a new Account</h6>
       <a href="/Google/ONEBOX">
       <button className="btn1"><span><FcGoogle/></span>Sign Up with Google</button>
       </a>
