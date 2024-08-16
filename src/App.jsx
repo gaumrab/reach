@@ -4,8 +4,10 @@ import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
   return <>
-    <LogIn/>
-     <Onebox/>
+    <Routes>
+      <Route path="/" element={<LogIn/>}/>
+      <Route path="/Google/ONEBOX" element={<Onebox/>}/>
+    </Routes>
   </>
 }
 
