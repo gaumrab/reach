@@ -15,7 +15,7 @@ import { MdOutlineReply } from "react-icons/md";
 
 
 
-function Center({value}){
+function Center({theme,value}){
    let array = [
       {launch: "New Launch",from:"abhi@gmail.com",to:"user2@gmail.com",date:"20-june 2022 - 2023",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione laboriosam perspiciatis. Voluptas similique tenetur repudiandae incidunt officia eos nemo consequuntur."},
       {launch: "Pre Launch",from:"lovedeep@gmail.com",to:"user3@gmail.com",date:"21-May 2022 - 2023",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione laboriosam perspiciatis. Voluptas similique tenetur repudiandae incidunt officia eos nemo consequuntur."},
@@ -49,15 +49,15 @@ function Center({value}){
         <h5>{value.toEmail.substring(0,8)}</h5>
         <h6 style={{color:"gray"}}>{value.toEmail}</h6>
         </div>
-        <div className='Info1'>
-        <div className='Infoone'><FaCircle className='ii'/>Meeting Completed<FaAngleDown className='ii' /></div>
-        <p className='Infoone'>Move<FaAngleDown className='ii' /></p>
-        <p className='Infoone'>...</p>
+        <div className='Info1' >
+        <div id={`${!theme?"WHITE":""}`} className='Infoone'><FaCircle className='ii'/>Meeting Completed<FaAngleDown className='ii' /></div>
+        <p id={`${!theme?"WHITE":""}`} className='Infoone'>Move<FaAngleDown className='ii' /></p>
+        <p id={`${!theme?"WHITE":""}`} className='Infoone'>...</p>
         </div>
       </div>
       {
          reply.map((data,index)=>{
-            return <div key={index} className="para">
+            return <div key={index} className="para" id={`${!theme?"WHITE":""}`}>
             <div className="part1">
             <h5 style={{color:"white"}}>{data.launch}</h5>
             <h5>from:{data.from}</h5>
