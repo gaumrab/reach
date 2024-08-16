@@ -1,0 +1,398 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.one{
+  width: 25%;
+  padding: 2%;
+  background-color: rgb(17,18,19);
+  border-radius: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.one .btn1{
+   background-color: black;
+   color: white;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   border: 1px solid rgb(87, 87, 87);
+   width: 100%;
+   margin-top: 10px;
+   border-radius: 5%;
+   font-size:small;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.one .btn1 span{
+    font-size: larger;
+    margin-top: -2px;
+}
+.one .btn2{
+    background-color: rgb(53, 77, 195);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    margin-top: 5px;
+}
+.one p{
+    margin-top: 22px;
+    color: gray;
+    font-size: small;
+}
+.one p span{
+    color: white;
+}
+.two{
+    background-color: rgb(16,17,19);
+    color: white;
+    width: 4%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30%;
+    padding: 2px;
+}
+.subdiv1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.subdiv1 h6{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 2px;
+}
+.subdiv2{
+    background-color: green;
+    height: 6%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.main{
+    display: flex;
+}
+.mainto{
+    width: 96%;
+    height: 92%;
+    display: flex;
+    position: absolute;
+    top: 8%;
+    left: 64px;
+}
+.head{
+    background-color: rgb(39, 42, 42);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px; 
+}
+.head .subDiv1{
+    display: flex;
+    gap: 10px;
+    height: 30px;
+}
+.head .subDiv1 select{
+    margin-top: -10px;
+    background-color: transparent;
+    color: white;
+    list-style: none;
+    border-color: transparent;
+}
+.bar{
+    width: 20%;
+    height: 92vh;
+    background-color: black;
+    border: 1px solid rgb(84, 84, 84);
+}
+.bar .subpart1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: blue;
+    font-weight: bolder;
+}
+.bar .subpart1 span{
+    background-color: rgb(39, 40, 41);
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    border-radius: 10%;
+    color: white;
+}
+.bar p{
+    font-size: small;
+    color: gray;
+    margin-left: 5px;
+}
+.search{
+    padding-left: 5px;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    margin-left:8%;
+}
+.search input{
+    background-color: rgb(59, 59, 59);
+    list-style: none;
+    border: none;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 4px;
+    width: 75%;
+}
+
+::placeholder {
+    color: white;
+  }
+  .search span{
+    height: 10px;
+    padding: 5px;
+    padding-bottom: 6px;
+    background-color: rgb(59, 59, 59);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.bar h1{
+    background-color: gray;
+    width: fit-content;
+    height: fit-content;
+}
+.bar .new{
+    display: flex;
+    justify-content: space-between;
+}
+.newsub1{
+  display: flex;
+  gap: 3px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.newsub1 #twenty{
+    background-color: #222426;
+    padding: 5px;
+    border-radius: 50%;
+    color: blue;
+}
+.bar h6{
+    padding-top: 5px;
+}
+.bar .new select{
+    list-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+
+.Card{
+    width: 81%;
+    margin-left: 35px;
+    height: fit-content;
+    border-top: 1px solid white;
+    cursor: pointer;
+}
+.cardsub1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6px;
+    margin-top: 3px;
+}
+.cardsub1 .gmailpart .point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 10px;
+}
+.Card .cardsub1 .gmailpart{
+    display: flex;
+    gap: 5px;
+}
+.Card .cardsub1 p{
+    margin-top: 5px;
+}
+.Card .cardsub2{
+    display: flex;
+    gap: 4px;
+}
+.Card .cardsub2 .p1{
+    padding: 6px;
+    background-color: rgb(216, 216, 214);
+    border-radius: 20px;
+}
+.safe{
+    background-color: rgb(158, 200, 215);
+    border-radius: 20px;
+    padding:3px;
+    height: 30px;
+}
+.danger{
+    background-color: rgb(158, 200, 215);
+    border-radius: 20px;
+    padding:3px;
+    height: 30px;
+}
+
+.ceenter{
+    width: 60%;
+    height: 70%;
+}
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid gray;
+}
+.Info1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Info1 .Infoone{
+    display: flex;
+    width: 12vw;
+    background-color: rgb(48, 45, 45);
+    gap: 2px;
+    padding: 5px;
+    border-radius: 2%;
+}
+.ii{
+    color: yellow;
+    margin-top: 4px;
+}
+.ii:nth-child(2){
+    color: white;
+}
+.ii:nth-last-child(1){
+    color: white;
+}
+.Info1 .Infoone:nth-child(2){
+    width: 5vw;
+    margin-top: 16px;
+}
+.Info1 .Infoone:nth-child(3){
+    width: 2vw;
+    margin-top: 16px;
+    border-radius: 1%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    background-color: rgb(26, 25, 25);
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: smaller;
+    display: flex;
+    color: gray;
+}
+.para h3{
+    width: 70%;
+    color: gray;
+}
+
+.REPLY{
+    background-color: rgb(19, 18, 18);
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color:white;
+    z-index:2;
+}
+.REPLY p{
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+.REPLY .onee input{
+    background-color: rgb(19, 18, 18);
+    box-shadow: 0px 0px 0px rgb(19, 18, 18);
+    color: white;
+}
+.REPLY .onee{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+.REPLY textarea{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.llink{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border: none;
+    margin: 5px;
+}
+.v{
+    display: visible;
+}
+.n{
+    display: none;
+}
+.end{
+    border-left: 1px solid rgb(96, 95, 95);
+}
+.end1{
+    padding: 23px;
+}
+.end1 h4{
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+    border-radius: 5%;
+}
+.end1 p{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rreply{
+    position: absolute;
+    margin-top: 0;
+    top: 94%;
+    left: 25%;
+}
