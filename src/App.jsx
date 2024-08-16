@@ -4,11 +4,12 @@ import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
   return <>
-    <Routes>
+{/*     <Routes>
       <Route path="/" element={<LogIn/>}/>
       <Route path="/onebox" element={<Onebox/>}/>
-    </Routes>
+    </Routes> */}
   </>
+  <Onebox/>
 }
 
 export default App;
