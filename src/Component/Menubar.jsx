@@ -10,9 +10,9 @@ import { BsFileBarGraph } from "react-icons/bs";
 
 
 
-function Menubar(){
+function Menubar({theme}){
     return <>
-      <div className="two">
+      <div className="two" id={`${!theme?"WHITE":""}`}>
         <div className="subdiv1">
             <a href="#"><button><IoMdContact/></button></a>
             <a href="#"><button><MdEmail/></button></a>
