@@ -18,5 +18,16 @@ Requirement for run the App on your Machine :
 5. npm i react-router-dom
 
 
+Photos:
+1. LogIn Page: 
 ![Screenshot 2024-08-16 154639](https://github.com/user-attachments/assets/ef27304e-6444-420b-b9a3-42830b8c3fbb)
+2. Front Page:
+![Screenshot 2024-08-16 155316](https://github.com/user-attachments/assets/6d6d817c-47f3-46f7-a4a1-7a83f5acb25f)
+3. When User Press Key 'R' then reply box is opened.
+![Screenshot 2024-08-16 155410](https://github.com/user-attachments/assets/6b934e05-92a7-4e02-85d1-9866a6793b42)
+4. When User Press Key 'D' then Delete pop is occur and selected user is get Deleted.
+![image](https://github.com/user-attachments/assets/cdc866de-2048-4732-8af0-3b76bf4c4caa)
+
+
+
 
