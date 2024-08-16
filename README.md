@@ -15,8 +15,8 @@ It like an gmail in which i used Reactjs, javaScript,Reactjs Component,axios for
 <h6>1. npm create vite@latest</h6>
 <h6>2. npm i axios</h6>
 <h6>3. npm install react-bootstrap bootstrap</h6>
-<h6>>4. npm i react-icons</h6
-<h6>>5. npm i react-router-dom</h6
+<h6>4. npm i react-icons</h6>
+<h6>5. npm i react-router-dom</h6>
 
 
 Photos:
