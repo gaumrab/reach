@@ -6,7 +6,7 @@ function Cards({value,Index,change}){
   
    
     return <>
-     <div className="Card">
+     <div className="Card" onClick={()=>change(Index)}>
                <div className="cardsub1">
                   <div className="gmailpart">
                   <div className="point"></div>
@@ -16,7 +16,7 @@ function Cards({value,Index,change}){
                </div>
                 <p>{value.subject}</p>
                 <div className="cardsub2">
-                <button onClick={()=>change(Index)} className={`${!value.isRead?"safe":"danger"}`}><FaCircle />
+                <button className={`${!value.isRead?"safe":"danger"}`}><FaCircle />
                 {
                     !value.isRead?"Interested":"closed"
                 }
