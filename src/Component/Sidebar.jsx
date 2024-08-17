@@ -8,16 +8,30 @@ function Sidebar({ theme,value }) {
       fromEmail: "xyz@gmail.com",
       subject: "meeting1",
       toEmail: "abc@gmail.com",
-      isRead: "true",
+      isRead: false,
       sentAt: "2023-11-23T07:38:46.000Z",
     },
     {
       fromEmail: "abhishek@gmail.com",
       subject: "meeting2",
       toEmail: "abc@gmail.com",
-      isRead: "false",
+      isRead: true,
       sentAt: "2023-11-23T07:38:46.000Z",
     },
+    {
+      fromEmail: "shaw@getmemeetings.com",
+      subject: "Shaw - following up on our meeting last week... | 7ZG2ZTV 6KG634E",
+      toEmail: "abc@gmail.com",
+      isRead: true,
+      sentAt: "2023-11-23T07:38:46.000Z",
+    },
+    {
+      fromEmail: "shaw@getmemeetings.com",
+      subject: "Test mail",
+      toEmail: "abc@gmail.com",
+      isRead: false,
+      sentAt: "2023-11-23T07:38:46.000Z",
+    }
   ];
   let [BIGDATA, setBIGDATA] = new useState(arr);
   let [index,setIndex] = new useState(0);
@@ -48,7 +62,7 @@ function Sidebar({ theme,value }) {
       <div className="bar" id={`${!theme?"WHITE":""}`}>
         <div className="subpart1">
           <h3>All Inbox(s)</h3>
-          <span>
+          <span id={`${!theme?"WHITE":""}`}>
             <IoReload />
           </span>
         </div>
@@ -59,7 +73,7 @@ function Sidebar({ theme,value }) {
           </span>
           <input id={`${!theme?"WHITE":""}`} type="text" placeholder="Search" />
         </div>
-        <div className="new">
+        <div className="new" >
           <div className="newsub1">
             <h6 id="twenty">26</h6>
             <h6>New Replies</h6>
@@ -68,11 +82,6 @@ function Sidebar({ theme,value }) {
             <option>Newest</option>
           </select>
         </div>
-        {value.map((data, index) => {
-          return (
-            <Cards key={index} Index={1233} change={change} value={data} />
-          );
-        })}
         {BIGDATA.map((data, index) => {
           return (
             <Cards key={index} Index={index} change={change} value={data} />
