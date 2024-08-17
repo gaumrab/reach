@@ -65,7 +65,7 @@ html,body{
 .two{
     background-color: rgb(16,17,19);
     color: white;
-    width: 7%;
+    width: 5%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ html,body{
     border-color: transparent;
 }
 .bar{
-    width: 22%;
+    width: 20%;
     height: 92vh;
     background-color: black;
     border: 1px solid rgb(84, 84, 84);
