@@ -24,13 +24,6 @@ function Sidebar({ theme,value }) {
       toEmail: "abc@gmail.com",
       isRead: true,
       sentAt: "2023-11-23T07:38:46.000Z",
-    },
-    {
-      fromEmail: "shaw@getmemeetings.com",
-      subject: "Test mail",
-      toEmail: "abc@gmail.com",
-      isRead: false,
-      sentAt: "2023-11-23T07:38:46.000Z",
     }
   ];
   let [BIGDATA, setBIGDATA] = new useState(arr);
