@@ -34,18 +34,22 @@ const Navbar = ({theme}) => {
     fetchData();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
+  // if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
  
  
 
   return <>
-  <div className='mainto' id={`${!theme?"WHITE":""}`}>
-    <Sidebar theme={theme}  value={data.data}/>
-    <Center theme={theme} value={data.data[0]}/>
-    <End  theme={theme}/>
-  </div>
-  
+  {loading?<div className='loading' id={`${!theme?"WHITE":""}`}>
+    {!theme?<img src="src\assets\two.png" alt="Image" />:<img src="src\assets\one.png" alt="Image" />}
+    </div>
+    :
+    <div className='mainto' id={`${!theme?"WHITE":""}`}>
+      <Sidebar theme={theme}  value={data.data}/>
+      <Center theme={theme} value={data.data[0]}/>
+      <End  theme={theme}/> 
+    </div>
+  }
  </>
 };
 
