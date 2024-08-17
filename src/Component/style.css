@@ -65,7 +65,7 @@ html,body{
 .two{
     background-color: rgb(16,17,19);
     color: white;
-    width: 4%;
+    width: 7%;
     height: 100vh;
     display: flex;
     flex-direction: column;
