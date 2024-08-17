@@ -41,7 +41,7 @@ const Navbar = ({theme}) => {
 
   return <>
   {loading?<div className='loading' id={`${!theme?"WHITE":""}`}>
-    {!theme?<img src="/src/assets/one.png" alt="Image" />:<img src="/src/assets/one.png" alt="Image" />}
+    {!theme?<img src="src\assets\one.png" alt="Image" />:<img src="src\assets\one.png" alt="Image" />}
     </div>
     :
     <div className='mainto' id={`${!theme?"WHITE":""}`}>
