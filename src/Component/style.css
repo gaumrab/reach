@@ -401,3 +401,16 @@ html,body{
     color: black;
     border: 1px solid black;
 }
+.loading{
+    background-color: black;
+    width: 99%;
+    height: 95%;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
