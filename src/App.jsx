@@ -3,8 +3,8 @@ import { Routes,Route } from "react-router-dom";
 import LogIn from "./Component/LogIn";
 import Onebox from "./Component/Onebox";
 function App(){
-  let [state,setState] = new useState(true);
-  let [theme,setTheme] = new useState(true);
+  let [state,setState] = new useState(false);
+  let [theme,setTheme] = new useState(false);
   function change(state){
     setState(!state);
   }
