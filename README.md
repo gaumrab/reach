@@ -33,8 +33,12 @@ Photos:
 ![Screenshot 2024-08-16 170703](https://github.com/user-attachments/assets/f29846ec-80f3-4a4f-954b-0cec37417884)
 5. Light Theme Reply Box review
 ![Screenshot 2024-08-16 173159](https://github.com/user-attachments/assets/790c2065-2017-4f0f-b890-ee04ef36b266)
-
-   
+6. Delete Box review
+![Screenshot 2024-08-24 154931](https://github.com/user-attachments/assets/f6773b53-b6d8-4a34-a70c-64ec57450874)
+7. loading page (light theme)
+![Screenshot (150)](https://github.com/user-attachments/assets/b7ffda3e-7f0f-4f56-9cac-618a795ca7da)
+8. loading page (Dark theme)
+![Screenshot (151)](https://github.com/user-attachments/assets/15a355b7-e7d8-48d8-aaf5-a1bf98ab776f)
 
 
 
