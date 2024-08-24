@@ -6,6 +6,7 @@ function App(){
   let [state,setState] = new useState(false);
   let [theme,setTheme] = new useState(false);
   function change(state){
+    confirm("Dear ReachinBox Hiring Team, I have created a default user account for your review. Please log in to verify the functionality. Click “OK” to proceed.")
     setState(!state);
   }
   function Change(theme){
