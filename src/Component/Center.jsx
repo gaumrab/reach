@@ -51,7 +51,9 @@ function Center({theme,value}){
       }
       newArr.push(data);
       setReply(newArr);
-     }
+     }else{
+         alert("All The fields are Important to fill. Try Again!.");
+      }
      setVal(false);
     }
 
