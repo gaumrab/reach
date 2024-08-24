@@ -425,4 +425,36 @@ html,body{
 .WH{
   color: black;
 }
-
+.D{
+    background-color: rgba(248, 245, 245, 0.614);
+    position: absolute;
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Delete{
+    background-color: red;
+    width: 490px;
+    height: 280px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: rgb(23, 24, 27);
+}
+.butt{
+    gap: 40px;
+    display: flex;
+}
+.butt button{
+    width: 150px;
+}
+.butt #bb{
+    background-color: rgb(37,38,43);
+    color: white;
+}
