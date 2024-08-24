@@ -1,8 +1,8 @@
 html,body{
     width: 100%;
     height: 100%;
-    color: white;
     background-color: black;
+    color: white;
     overflow: hidden;
 }
 .center{
@@ -322,11 +322,12 @@ html,body{
     border-radius: 5px;
     font-size: smaller;
     display: flex;
+    justify-content: space-between;
     color: gray;
 }
 .para h3{
-    width: 70%;
     color: gray;
+    width: 40%;
 }
 
 .REPLY{
@@ -412,5 +413,16 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.red{
+    width: 20px;
+    height:20px;
+    position: absolute;
+    top: 18px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+.WH{
+  color: black;
 }
 
