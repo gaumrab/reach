@@ -31,15 +31,28 @@ function Center({theme,value}){
         setVal(true);
       }
     }
-    const [data,setData] = useState({launch:"",from:"",to:"",desc:"",date:"21-May 2022 - 2023"})
+    const d = new Date();
+    const [data,setData] = useState({launch:"",from:"",to:"",desc:"",date:d.toLocaleString().substring(0,9).replaceAll('/',"-").replace('8','August')+" - 2024"})
     function Add(){
+      let bool = false;
+      data.launch = "pre-Launch";
+      for (let key in data) {
+         if (data.hasOwnProperty(key)) {
+             value = data[key];
+             if(value == ""){
+               bool = true;
+             }
+         }
+     }
+      if(bool === false){
       let newArr = [];
       for(let i of reply){
-          newArr.push(i);
+         newArr.push(i);
       }
       newArr.push(data);
       setReply(newArr);
-      setVal(false);
+     }
+     setVal(false);
     }
 
    return <>
@@ -59,7 +72,7 @@ function Center({theme,value}){
          reply.map((data,index)=>{
             return <div key={index} className="para" id={`${!theme?"WHITE":""}`}>
             <div className="part1">
-            <h5 style={{color:"white"}}>{data.launch}</h5>
+            <h5  id={`${!theme?"WH":""}`}>{data.launch}</h5>
             <h5>from:{data.from}</h5>
             <h5>to: {data.to}</h5>
             <h6>Hi(First_Name)</h6>
