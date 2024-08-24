@@ -2,6 +2,7 @@ import React, { useEffect,useState } from "react";
 import { IoReload } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import Cards from "./Cards";
+import Delete from "./Delete";
 function Sidebar({ theme,value }) {
   let arr = [
     {
@@ -24,10 +25,18 @@ function Sidebar({ theme,value }) {
       toEmail: "abc@gmail.com",
       isRead: true,
       sentAt: "2023-11-23T07:38:46.000Z",
+    },
+    {
+      fromEmail: "shaw@getmemeetings.com",
+      subject: "Test mail",
+      toEmail: "abc@gmail.com",
+      isRead: false,
+      sentAt: "2023-11-23T07:38:46.000Z",
     }
   ];
   let [BIGDATA, setBIGDATA] = new useState(arr);
   let [index,setIndex] = new useState(0);
+  let [DBox,setDBox] = new useState(false);
  
   function change(Index) {
     setIndex(Index);
@@ -38,7 +47,12 @@ function Sidebar({ theme,value }) {
   }, []);
   function detectKey(key) {
     if (key.key == "D") {
-    
+      setDBox(true);
+    }
+  }
+  function check(check){
+    if(check == 1){
+      alert("If you attempt to delete a user without selecting one, the system will default to deleting the first user. The user ID of the first user will be passed to the API for deletion. Otherwise it will delete your selected user.")
       let newArr = [];
       for(let i in BIGDATA){
         if(i!=index){
@@ -46,12 +60,13 @@ function Sidebar({ theme,value }) {
         }
       }
       setBIGDATA(newArr);
-      confirm("Are you sure. Your Selected email will be deleted.");
     }
+    setDBox(false);
   }
 
   return (
     <>
+      {DBox?<Delete check={check}/>: ""}
       <div className="bar" id={`${!theme?"WHITE":""}`}>
         <div className="subpart1">
           <h3>All Inbox(s)</h3>
