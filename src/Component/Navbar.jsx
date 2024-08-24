@@ -3,6 +3,8 @@ import Sidebar from './Sidebar';
 import Center from './Center';
 import End from './End';
 import axios from 'axios';
+import img1 from "../assets/two.png"
+import img2 from "../assets/one.png"
 
 const Navbar = ({theme}) => {
   const [data, setData] = useState(null);
@@ -41,7 +43,7 @@ const Navbar = ({theme}) => {
 
   return <>
   {loading?<div className='loading' id={`${!theme?"WHITE":""}`}>
-   {!theme?<img src=".\assets\two.png" alt="Image" />:<img src=".\assets\one.png" alt="Loding" />}
+    {!theme?<img src={img1} alt="Image" />:<img src={img2} alt="Image" />}
     </div>
     :
     <div className='mainto' id={`${!theme?"WHITE":""}`}>
@@ -54,7 +56,3 @@ const Navbar = ({theme}) => {
 };
 
 export default Navbar;
-
-
-
-
