@@ -21,23 +21,31 @@ It like an gmail in which i used Reactjs, javaScript,Reactjs Component,axios for
 
 
 Photos:
-1. LogIn Page: 
+1. LogIn Page:
 ![Screenshot 2024-08-16 154639](https://github.com/user-attachments/assets/ef27304e-6444-420b-b9a3-42830b8c3fbb)
+
 2. Front Page:
 ![Screenshot 2024-08-16 155316](https://github.com/user-attachments/assets/6d6d817c-47f3-46f7-a4a1-7a83f5acb25f)
-3. When User Press Key 'R' then reply box is opened.
+
+3. When User Press Key 'R' then reply box is opened:
 ![Screenshot 2024-08-16 155410](https://github.com/user-attachments/assets/6b934e05-92a7-4e02-85d1-9866a6793b42)
-4. When User Press Key 'D' then Delete pop is occur and selected user is get Deleted.
+
+4. When User Press Key 'D' then Delete pop is occur and selected user is get Deleted:
 ![image](https://github.com/user-attachments/assets/cdc866de-2048-4732-8af0-3b76bf4c4caa)
-5. Light Theme review
+
+5. Light Theme review:
 ![Screenshot 2024-08-16 170703](https://github.com/user-attachments/assets/f29846ec-80f3-4a4f-954b-0cec37417884)
-5. Light Theme Reply Box review
+
+6. Light Theme Reply Box review:
 ![Screenshot 2024-08-16 173159](https://github.com/user-attachments/assets/790c2065-2017-4f0f-b890-ee04ef36b266)
-6. Delete Box review
+
+7. Delete Box review:
 ![Screenshot 2024-08-24 154931](https://github.com/user-attachments/assets/f6773b53-b6d8-4a34-a70c-64ec57450874)
-7. loading page (light theme)
+
+8. loading page (light theme):
 ![Screenshot (150)](https://github.com/user-attachments/assets/b7ffda3e-7f0f-4f56-9cac-618a795ca7da)
-8. loading page (Dark theme)
+
+9. loading page (Dark theme):
 ![Screenshot (151)](https://github.com/user-attachments/assets/15a355b7-e7d8-48d8-aaf5-a1bf98ab776f)
 
 
